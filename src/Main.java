@@ -5,7 +5,7 @@ public class Main {
         Summator newSum= new Summator();
 
         newSum.setFirstNumber(2_000_000_000);
-        newSum.setSecondNumber(2_000_000_000L);
+        newSum.setSecondNumber(2_000_000_000);
 
         long summa = newSum.sum();
         System.out.println(summa);
